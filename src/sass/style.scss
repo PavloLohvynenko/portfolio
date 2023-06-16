@@ -16,6 +16,14 @@
     width: 1140px;
     margin: 0 auto;
 }
+.divider {
+    // position: absolute;
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: $main-color;
+    margin: 25px auto 0 auto;
+}
 
 
 @import 'bloks/promo';
@@ -24,3 +32,4 @@
 @import 'bloks/saidepanel';
 @import 'bloks/menu';
 @import 'bloks/about';
+@import 'bloks/resumes';
